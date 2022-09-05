@@ -39,9 +39,46 @@
 body {
   min-width: 1366px;
   margin: 0;
+
   font-family: inter, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #565c66;
+}
+
+/* header */
+
+.navigation {
+  display: flex;
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.navigation-logo {
+  padding-top: 24px;
+}
+
+.navigation-site-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 400px;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.navigation-site-link {
+  text-decoration: none;
+  color: #203440;
+}
+
+.navigation-user-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
 }
