@@ -41,9 +41,11 @@ body {
   margin: 0;
 
   font-family: inter, sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+
   color: #565c66;
 }
 
@@ -57,28 +59,34 @@ body {
 
 .navigation-logo {
   padding-top: 24px;
+  margin-right: 16px;
 }
 
-.navigation-site-list {
+.navigation-list {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  width: 400px;
+  align-items: center;
   margin: 0;
   padding: 0;
+  padding-top: 20px;
 
   list-style-type: none;
 }
 
-.navigation-site-link {
+.navigation-list-site {
+  margin-right: auto;
+}
+
+.navigation-link-site {
+  display: block;
+  padding: 8px 16px;
+
+  line-height: 20px;
+
   text-decoration: none;
   color: #203440;
 }
 
-.navigation-user-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-
-  list-style-type: none;
+.navigation-list-user {
+  width: 431px;
 }
