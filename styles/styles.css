@@ -56,8 +56,21 @@ body {
 }
 
 .navigation-logo {
-  padding-top: 24px;
+  margin-top: 24px;
   margin-right: 16px;
+}
+
+.navigation-logo:hover {
+  opacity: 0.7;
+}
+
+.navigation-logo:active {
+  opacity: 0.3;
+}
+
+.navigation-logo:focus {
+  outline: 2px solid #2d3440;
+  outline-offset: 3px;
 }
 
 .navigation-list {
@@ -80,6 +93,22 @@ body {
   line-height: 20px;
   text-decoration: none;
   color: #2d3440;
+}
+
+.navigation-link:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+  border-radius: 30px;
+}
+
+.navigation-link:active {
+  background-color: #fcfcfc;
+  border-radius: 30px;
+}
+
+.navigation-link:focus-visible {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+  border-radius: 30px;
 }
 
 .navigation-list-user {
