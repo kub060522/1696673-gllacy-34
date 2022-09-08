@@ -60,15 +60,18 @@ body {
   margin-right: 16px;
 }
 
-.navigation-logo:hover {
+.navigation-logo:hover,
+.navigation-link-phone:hover {
   opacity: 0.7;
 }
 
-.navigation-logo:active {
+.navigation-logo:active,
+.navigation-link-phone:active {
   opacity: 0.3;
 }
 
-.navigation-logo:focus {
+.navigation-logo:focus,
+.navigation-link-phone:focus {
   outline: 2px solid #2d3440;
   outline-offset: 3px;
 }
@@ -95,17 +98,20 @@ body {
   color: #2d3440;
 }
 
-.navigation-link:hover {
+.navigation-link:hover,
+.navigation-button:hover {
   background-color: rgba(252, 252, 252, 0.5);
   border-radius: 30px;
 }
 
-.navigation-link:active {
+.navigation-link:active,
+.navigation-button:active {
   background-color: #fcfcfc;
   border-radius: 30px;
 }
 
-.navigation-link:focus-visible {
+.navigation-link:focus-visible,
+.navigation-button:focus-visible {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #2d3440;
   border-radius: 30px;
